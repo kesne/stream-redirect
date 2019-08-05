@@ -1,0 +1,12 @@
+{
+    "version": 2,
+    "alias": [
+        "stream.gossipgirl.dev",
+        "live.gossipgirl.dev",
+        "apex.gossipgirl.dev",
+        "twitch.gossipgirl.dev"
+    ],
+    "routes": [
+        { "src": "/.*", "status": 301, "headers": { "Location": "https://twitch.tv/kesne" } }
+    ]
+}
